@@ -1,4 +1,14 @@
 # Question-Answering-App-Development
+
+**Set up your environment**
+
+Make sure you have Python installed. Create a virtual environment and install the necessary packages:
+'''
+python -m venv question_answering_env
+source question_answering_env/bin/activate
+pip install Flask transformers
+'''
+
 **Rationale behind the chosen model:**
 
 The chosen model, DistilBERT, is a lightweight version of the popular BERT (Bidirectional Encoder Representations from Transformers) model. DistilBERT is designed to be computationally efficient while retaining much of the performance of BERT. It achieves this by reducing the number of parameters and layers in the model, making it faster to train and deploy, which is particularly useful in web applications where latency matters.
